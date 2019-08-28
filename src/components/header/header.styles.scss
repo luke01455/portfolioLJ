@@ -1,15 +1,18 @@
+$break-medium: 900px;
+
 .header {
     height: 8vh;
     min-height: 39px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: #282c34;
-  
-    .logo-container {
-      height: 100%;
-      width: 70px;
-      padding: 25px;
+    align-items: center;
+
+    @media screen and (max-width: $break-medium) {
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-around;
     }
   
     .options {
@@ -18,14 +21,32 @@
       display: flex;
       align-items: center;
       justify-content: flex-end;
-      
-  
-      .option {
+
+      @media screen and (max-width: $break-medium) {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+      }
+
+
+         .option {
+        width: 125px;
         padding: 10px 15px;
         cursor: pointer;
         text-decoration: none;
         color: white;
+        transition: 0.1s;
+
+        @media screen and (max-width: $break-medium) {
+          min-width: 18vw;
+        }
       }
+
+
+
+      .option:hover {
+        letter-spacing: 2px;
     }
   }
+}
   

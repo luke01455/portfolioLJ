@@ -6,15 +6,15 @@ import './header.styles.scss';
 
 const Header = () => (
     <div className='header'>
-        <Link className='logo-container' to="/">
-
-        </Link>
         <div className='options'>
-            <Link className='option' to='/'>
+        <Link className='option' to='/'>
                 SKILLS
             </Link>
             <Link className='option' to='/'>
                 PROJECTS
+            </Link>
+            <Link className='option' to='/'>
+                ABOUT
             </Link>
             <Link className='option' to='/'>
                 CONTACT
