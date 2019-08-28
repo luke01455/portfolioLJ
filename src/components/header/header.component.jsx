@@ -10,13 +10,13 @@ const Header = () => (
 
         </Link>
         <div className='options'>
-            <Link className='option' to='/shop'>
+            <Link className='option' to='/'>
                 SKILLS
             </Link>
-            <Link className='option' to='/shop'>
+            <Link className='option' to='/'>
                 PROJECTS
             </Link>
-            <Link className='option' to='/shop'>
+            <Link className='option' to='/'>
                 CONTACT
             </Link>
         </div>
