@@ -1,5 +1,6 @@
 $break-large: 1350px;
 $break-medium: 900px;
+$break-small: 450px;
 
 .homepage {
     background-color: #282c34;
@@ -15,6 +16,10 @@ $break-medium: 900px;
         margin-right: auto;
         font-family: 'Lexend Exa', sans-serif;
         display: block;
+
+        @media screen and (max-width: $break-small) {
+          width: 75%;
+        }
     .name-container1 {
         font-size: 5em;
         display: flex;

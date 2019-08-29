@@ -1,0 +1,95 @@
+$break-large: 1350px;
+$break-medium: 900px;
+$break-small: 450px;
+
+.skills {
+  height: 59vh;
+  background-color: #282c34;
+  color: white;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-rows: 1fr 0.3fr;
+  font-family: "Marcellus SC", serif;
+
+  @media screen and (max-width: $break-small) {
+    height: 47vh;
+  }
+  @media screen and (max-width: $break-large) {
+    height: 59vh;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+
+    @media screen and (max-width: $break-medium) {
+        display: none;
+      }
+  }
+
+  .skills-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    width: 60%;
+    margin-top: 3%;
+    height: 60%;
+
+    @media screen and (max-width: $break-medium) {
+      padding-bottom: 5%;
+    }
+
+    @media screen and (max-width: $break-medium) {
+    flex-direction: column;
+    margin-top: 0%;
+    }
+
+    .skills-list {
+      height: 30vh;
+
+      @media screen and (max-width: $break-medium) {
+        margin-bottom: 15%;
+      }
+
+      h2 {
+
+        font-size: 1.18em;
+        @media screen and (max-width: $break-large) {
+          height: 3%;
+          font-size: 1.1em;
+        }
+
+        @media screen and (max-width: $break-medium) {
+          height: 2%;
+          font-size: 1.0em;
+        }
+      }
+
+      .skills-holder {
+        width: 200px;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1em;
+        height: 50%;
+
+        p {
+            font-size: 0.96em;
+          @media screen and (max-width: $break-large) {
+            height: 2%;
+            font-size: 0.95em;
+          }
+          @media screen and (max-width: $break-medium) {
+            height: 3%;
+            font-size: 0.95em;
+          }
+        }
+      }
+    }
+  }
+}

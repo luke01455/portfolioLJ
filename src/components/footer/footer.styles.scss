@@ -1,0 +1,38 @@
+$break-large: 1350px;
+$break-medium: 900px;
+$break-small: 450px;
+
+.footer {
+    position: fixed;
+    height: 8vh;
+    min-height: 8vh;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    background-color: #282c34;
+
+    .links-wrapper {
+        width: 70%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .link {
+            width: 200px;
+         a {
+             width: 50px;
+            color: white;
+            text-decoration: none;
+            transition: 0.1s;
+        }
+
+        a:hover {
+            letter-spacing: 2px;
+        }
+    }
+    }
+}
