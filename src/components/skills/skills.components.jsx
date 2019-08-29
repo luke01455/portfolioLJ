@@ -26,9 +26,11 @@ const Skills = () => (
           </div>
         </div>
       </div>
+      <div className="link-container">
       <Link className='learn-more' to='/projects'>
         Learn More
         </Link>
+        </div>
   </div>
 );
 

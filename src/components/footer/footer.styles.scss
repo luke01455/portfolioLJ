@@ -3,7 +3,7 @@ $break-medium: 900px;
 $break-small: 450px;
 
 .footer {
-    position: fixed;
+    
     height: 8vh;
     min-height: 8vh;
     display: flex;
@@ -12,6 +12,7 @@ $break-small: 450px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px;
+    position: fixed;
     background-color: #282c34;
 
     .links-wrapper {

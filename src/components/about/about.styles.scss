@@ -10,9 +10,10 @@ $break-small: 450px;
     min-height: 59vh;
 
     @media screen and (max-width: $break-small) { 
-        height: 45vh;
-        min-height: 45vh;
+        height: 47vh;
+        min-height: 47vh;
       }
+
 
     .about-wrapper {
         padding-top: 2%;
@@ -40,14 +41,16 @@ $break-small: 450px;
             padding: 5% 10% 0% 10%;
 
             .learn-more {
-                text-decoration: none;
+                text-decoration: underline;
                 color: white;
                 font-size: 1.4em;
                 transition: 0.1s;
                 padding-top: 2%;
+                
             }
 
             .learn-more:hover {
+              text-decoration: none;
                 letter-spacing: 1px;
                 transform: scale(1.05);
             }
@@ -75,6 +78,10 @@ $break-small: 450px;
               @media screen and (max-width: $break-small) { 
                 height: 1vh;
                 max-height: 5px;
+                display: none;
+              }
+
+              @media screen and (max-width: $break-medium) and (max-height: 744px) {
                 display: none;
               }
             

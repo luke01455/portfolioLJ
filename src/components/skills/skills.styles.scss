@@ -20,13 +20,43 @@ $break-small: 450px;
 
   a {
     color: white;
-    text-decoration: none;
-    font-size: 1.6em;
+    text-decoration: underline;
+    font-size: 1.5em;
+    transition: 0.1s;
 
+
+  }
+
+  a:hover {
+    letter-spacing: 1.2px;
+    transform: scale(1.07);
+    text-decoration: none;
+    }
+
+.link-container {
+    bottom: 50px;
+    left: 50px;
+    right: 50px;
+    margin-bottom: 105px;
+    position: fixed;
+
+    
     @media screen and (max-width: $break-medium) {
+        margin-bottom: 55px;
+      }
+    
+      @media screen and (max-width: $break-medium) and (max-height: 721px) {
         display: none;
       }
-  }
+    
+              
+      @media screen and (max-width: $break-small) {
+        display: none;
+      }
+    
+
+
+}
 
   .skills-wrapper {
     margin-left: auto;
@@ -66,6 +96,14 @@ $break-small: 450px;
           height: 2%;
           font-size: 1.0em;
         }
+
+        @media screen and (max-width: $break-medium) and (max-height: 721px) {
+            display: none;
+          }
+        
+          @media screen and (max-width: $break-small) {
+            display: none;
+          }
       }
 
       .skills-holder {
