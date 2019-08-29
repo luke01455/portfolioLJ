@@ -1,0 +1,45 @@
+.project-item {
+  width: 95vw;
+  color: white;
+  min-width: 30%;
+  height: 450px;
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0 25px;
+  padding-bottom: 30px;
+  overflow: hidden;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .project-wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+
+    .image-wrapper {
+      width: 45%;
+      .background-image {
+        display: block;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        width: calc(350px + 5%);
+        height: 350px;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+      }
+    }
+
+    .desc-text {
+      width: 45%;
+      margin: auto;
+    }
+  }
+}

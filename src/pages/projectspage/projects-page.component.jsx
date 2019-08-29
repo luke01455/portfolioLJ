@@ -11,7 +11,7 @@ class ProjectsPage extends React.Component {
         sections: [
         {
             title: 'Crwn-Clothing',
-            imageUrl: 'https://media.giphy.com/media/kafnIzCJ12DsEMu5W1/source.mov',
+            imageUrl: 'https://media.giphy.com/media/kafnIzCJ12DsEMu5W1/giphy.gif',
             id: 1,
             linkUrl: '',
             description: 'Crwn Clothing is an e-commerce site, made in react, using firebase for google login'
@@ -26,14 +26,14 @@ class ProjectsPage extends React.Component {
           },
           {
             title: 'Forkify',
-            imageUrl: 'https://media.giphy.com/media/iesTI3bXamSEAhRuRr/source.mov',
+            imageUrl: 'https://media.giphy.com/media/iesTI3bXamSEAhRuRr/giphy.gif',
             id: 3,
             linkUrl: '',
             description: 'Made following a Udemy tutorial, Forkify searches an API for recipes, displays the ingredients, lets you add a meal to your favourites, and puts the ingredients in a shopping cart'
           },
           {
             title: 'Budgety',
-            imageUrl: 'https://media.giphy.com/media/dyA3vxeewhadJQxDsK/source.mov',
+            imageUrl: 'https://media.giphy.com/media/dyA3vxeewhadJQxDsK/giphy.gif',
             id: 4,
             linkUrl: '',
             description: 'Made following a Udemy tutorial, budgety lets you plan out this months budget, by letting you add expenses, and add incomes, you can also remove anything youve added'
@@ -45,9 +45,9 @@ class ProjectsPage extends React.Component {
    render() {
     return (
         <div className='projects-page'>
-            {
+           {
                 this.state.sections.map(({ id, ...otherSectionProps}) => (
-                    <ProjectItem key={id} {...otherSectionProps}/>
+                     <ProjectItem key={id} {...otherSectionProps}/>
                 ))}
         </div>
     )
