@@ -1,3 +1,7 @@
+$break-large: 1350px;
+$break-medium: 900px;
+$break-small: 450px;
+
 .project-item {
   width: 95vw;
   color: white;
@@ -11,6 +15,10 @@
   padding-bottom: 30px;
   overflow: hidden;
 
+  @media screen and (max-width: $break-medium) {
+    height: auto;
+   }
+
   &:hover {
     cursor: pointer;
   }
@@ -21,8 +29,22 @@
     justify-content: space-around;
     align-content: center;
 
+    @media screen and (max-width: $break-medium) {
+        flex-direction: column-reverse;
+        width: 100%;
+      }
+
     .image-wrapper {
-      width: 45%;
+      width: 35%;
+      margin: auto;
+       display: flex;
+       justify-content: center;
+       align-content: space-between;
+
+    @media screen and (max-width: $break-large) {
+        width: 50%;
+      }
+    margin: auto;
       .background-image {
         display: block;
         background-repeat: no-repeat;
@@ -40,6 +62,16 @@
     .desc-text {
       width: 45%;
       margin: auto;
+      font-family: "Marcellus SC", serif;
+      display: flex;
+      justify-content: center;
+      align-content: space-between;
+      flex-direction: column;
+
+      @media screen and (max-width: $break-medium) {
+       flex: 1;
+       padding-bottom: 50px;
+      }
     }
   }
 }
