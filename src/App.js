@@ -5,6 +5,8 @@ import './App.css';
 import HomePage from './pages/homepage/homepage.component';
 import Header from './components/header/header.component';
 import About from './components/about/about.component';
+import Footer from './components/footer/footer.component';
+import Skills from './components/skills/skills.components';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Route path='/' component={HomePage}/>
       <Route exact path='/' component={About}/>
       <Route path='/about' component={About}/>
+      <Route path='/skills' component={Skills}/>
+      <Footer />
       </HashRouter>
 
     </div>
