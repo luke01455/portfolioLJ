@@ -8,7 +8,7 @@ const Skills = () => (
   <div className="skills">
       <div className="skills-wrapper">
         <div className="skills-list">
-          <h2>Languages/Frameworks</h2>
+          <h2>Blocks/Frameworks</h2>
           <div className='skills-holder'>
             <p> HTML </p>
             <p> CSS </p>
@@ -17,7 +17,7 @@ const Skills = () => (
           </div>
         </div>
         <div className="skills-list">
-          <h2>Libraries/Other</h2>
+          <h2>Tools/Other</h2>
           <div className='skills-holder'>
             <p> GIT </p>
             <p> RESPONSIVE DESIGN </p>

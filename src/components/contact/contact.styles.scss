@@ -1,0 +1,47 @@
+$break-large: 1350px;
+$break-medium: 900px;
+$break-small: 450px;
+
+.sign-in {
+    font-family: 'Marcellus SC', serif;
+    color: white;
+    width: 50%;
+    max-width: 600px;
+    height: 59vh;
+    min-height: 59vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+
+    @media screen and (max-width: $break-small) { 
+        height: 47vh;
+        min-height: 47vh;
+      }
+
+    .title {
+        margin: 10px 0;
+    }
+
+    .submit-button {
+        margin-top: 25px;
+        font-size: 1.35em;
+        font-family: 'Marcellus SC', serif;
+        border: none;
+        background: rgba(76, 175, 80, 0);
+        color: white;
+        transition: 0.1s;
+        text-decoration: underline;
+    }
+
+    .submit-button:hover {
+        cursor: pointer;
+        letter-spacing: 1.6px;
+        transform: scale(1.1);
+    }
+
+    p {
+        font-size: 1.05em;
+    }
+}
