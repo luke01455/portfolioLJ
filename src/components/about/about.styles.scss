@@ -9,7 +9,7 @@ $break-small: 450px;
     display: block;
     min-height: 59vh;
 
-    @media screen and (max-width: $break-small) { 
+    @media (max-width: $break-small) { 
         height: 47vh;
         min-height: 47vh;
       }
@@ -25,7 +25,7 @@ $break-small: 450px;
         align-content: center;
 
         
-        @media screen and (max-width: $break-large) {
+        @media (max-width: $break-large) {
             flex-direction: column-reverse;
             padding-top: 0%;
           }
@@ -57,7 +57,7 @@ $break-small: 450px;
         }
 
         .photo {
-            @media screen and (max-width: $break-small) { 
+            @media (max-width: $break-small) { 
                 height: 1vh;
                 max-height: 5px;
                 display: none;
@@ -70,18 +70,18 @@ $break-small: 450px;
             align-content: center;
             margin-left: 75px;
 
-            @media screen and (max-width: $break-large) {
+            @media (max-width: $break-large) {
                 margin-left: 0px;
                 padding-bottom: 5%;
               }
 
-              @media screen and (max-width: $break-small) { 
+              @media (max-width: $break-small) { 
                 height: 1vh;
                 max-height: 5px;
                 display: none;
               }
 
-              @media screen and (max-width: $break-medium) and (max-height: 744px) {
+              @media (max-width: $break-medium) and (max-height: 744px) {
                 display: none;
               }
             

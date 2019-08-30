@@ -11,10 +11,10 @@ $break-small: 450px;
   grid-template-rows: 1fr 0.3fr;
   font-family: "Marcellus SC", serif;
 
-  @media screen and (max-width: $break-small) {
+  @media (max-width: $break-small) {
     height: 47vh;
   }
-  @media screen and (max-width: $break-large) {
+  @media (max-width: $break-large) {
     height: 59vh;
   }
 
@@ -41,16 +41,16 @@ $break-small: 450px;
     position: fixed;
 
     
-    @media screen and (max-width: $break-medium) {
+    @media (max-width: $break-medium) {
         margin-bottom: 55px;
       }
     
-      @media screen and (max-width: $break-medium) and (max-height: 721px) {
+      @media (max-width: $break-medium) and (max-height: 721px) {
         display: none;
       }
     
               
-      @media screen and (max-width: $break-small) {
+      @media (max-width: $break-small) {
         display: none;
       }
     
@@ -68,11 +68,11 @@ $break-small: 450px;
     margin-top: 3%;
     height: 60%;
 
-    @media screen and (max-width: $break-medium) {
+    @media (max-width: $break-medium) {
       padding-bottom: 5%;
     }
 
-    @media screen and (max-width: $break-medium) {
+    @media (max-width: $break-medium) {
     flex-direction: column;
     margin-top: 0%;
     }
@@ -80,28 +80,28 @@ $break-small: 450px;
     .skills-list {
       height: 30vh;
 
-      @media screen and (max-width: $break-medium) {
+      @media (max-width: $break-medium) {
         margin-bottom: 15%;
       }
 
       h2 {
 
         font-size: 1.18em;
-        @media screen and (max-width: $break-large) {
+        @media (max-width: $break-large) {
           height: 3%;
           font-size: 1.1em;
         }
 
-        @media screen and (max-width: $break-medium) {
+        @media (max-width: $break-medium) {
           height: 2%;
           font-size: 1.0em;
         }
 
-        @media screen and (max-width: $break-medium) and (max-height: 721px) {
+        @media (max-width: $break-medium) and (max-height: 721px) {
             display: none;
           }
         
-          @media screen and (max-width: $break-small) {
+          @media (max-width: $break-small) {
             display: none;
           }
       }
@@ -118,11 +118,11 @@ $break-small: 450px;
 
         p {
             font-size: 0.96em;
-          @media screen and (max-width: $break-large) {
+          @media (max-width: $break-large) {
             height: 2%;
             font-size: 0.95em;
           }
-          @media screen and (max-width: $break-medium) {
+          @media (max-width: $break-medium) {
             height: 3%;
             font-size: 0.95em;
           }

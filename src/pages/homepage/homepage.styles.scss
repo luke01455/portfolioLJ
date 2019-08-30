@@ -17,7 +17,7 @@ $break-small: 450px;
         font-family: 'Lexend Exa', sans-serif;
         display: block;
 
-        @media screen and (max-width: $break-small) {
+        @media (max-width: $break-small) {
           width: 75%;
         }
     .name-container1 {
@@ -25,18 +25,18 @@ $break-small: 450px;
         display: flex;
         justify-content: flex-start;
         
-        @media screen and (max-width: $break-medium) {
+        @media (max-width: $break-medium) {
             justify-content: space-between;
           }
 
         .letter {
             width: 8vw;
 
-            @media screen and (max-width: $break-large) {
+            @media (max-width: $break-large) {
                 width: 12vw;
               }
 
-              @media screen and (max-width: $break-medium) {
+              @media (max-width: $break-medium) {
                 width: 15vw;
               }
         }
@@ -48,18 +48,18 @@ $break-small: 450px;
         background-color: white;
         justify-content: flex-end;
 
-        @media screen and (max-width: $break-medium) {
+        @media (max-width: $break-medium) {
             justify-content: space-between;
           }
 
         .letter {
             width: 8vw;
 
-            @media screen and (max-width: $break-large) {
+            @media (max-width: $break-large) {
                 width: 12vw;
               }
             
-              @media screen and (max-width: $break-medium) {
+              @media (max-width: $break-medium) {
                 width: 15vw;
               }
         }

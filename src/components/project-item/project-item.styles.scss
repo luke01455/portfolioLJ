@@ -15,7 +15,7 @@ $break-small: 450px;
   padding-bottom: 30px;
   overflow: hidden;
 
-  @media screen and (max-width: $break-medium) {
+  @media (max-width: $break-medium) {
     height: auto;
    }
 
@@ -29,7 +29,7 @@ $break-small: 450px;
     padding-left: 100px;
     padding-right: 100px;
 
-    @media screen and (max-width: $break-medium) {
+    @media (max-width: $break-medium) {
         flex-direction: column-reverse;
         width: 100%;
         padding-left: 0px;
@@ -47,7 +47,7 @@ $break-small: 450px;
         cursor: pointer;
       }
 
-    @media screen and (max-width: $break-large) {
+    @media (max-width: $break-large) {
         width: 50%;
       }
     margin: auto;
@@ -74,7 +74,7 @@ $break-small: 450px;
       align-content: space-between;
       flex-direction: column;
 
-      @media screen and (max-width: $break-medium) {
+      @media (max-width: $break-medium) {
       padding-top: 50px;
        flex: 1;
        padding-bottom: 15px;
@@ -82,14 +82,14 @@ $break-small: 450px;
       }
       .title {
 
-        @media screen and (max-width: $break-medium) {
+        @media (max-width: $break-medium) {
          padding: 10px;
           }
       }
       .description {
 
 
-        @media screen and (max-width: $break-medium) {
+        @media (max-width: $break-medium) {
 
            }
       }
@@ -101,7 +101,7 @@ $break-small: 450px;
         align-items: center;
         padding: 15px;
 
-        @media screen and (max-width: $break-medium) {
+        @media (max-width: $break-medium) {
           padding-top: 2px;
            }
 

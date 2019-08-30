@@ -39,7 +39,7 @@ class ProjectsPage extends React.Component {
           },
           {
             title: 'Budgety',
-            imageUrl: '<iframe src="https://giphy.com/embed/dyA3vxeewhadJQxDsK" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
+            imageUrl: '<a href="https://github.com/luke01455/budgety"><iframe src="https://giphy.com/embed/dyA3vxeewhadJQxDsK" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a>',
             id: 4,
             linkUrl: '',
             description: 'Made following a Udemy tutorial, budgety lets you plan out this months budget, by letting you add expenses and incomes, you can also remove anything youve added',

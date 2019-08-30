@@ -15,9 +15,9 @@ $break-small: 450px;
     margin-right: auto;
     padding-top: 50px;
 
-    @media screen and (max-width: $break-small) { 
-        height: 47vh;
-        min-height: 47vh;
+    @media (max-width: $break-small) { 
+        height: 55vh;
+        min-height: 55vh;
       }
 
     .title {
@@ -33,6 +33,10 @@ $break-small: 450px;
         color: white;
         transition: 0.1s;
         text-decoration: underline;
+
+        @media (max-width: $break-small) { 
+            margin-bottom: 100px;
+          }
     }
 
     .submit-button:hover {
