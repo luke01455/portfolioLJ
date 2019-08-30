@@ -52,6 +52,7 @@ $break-small: 450px;
       }
     margin: auto;
       .background-image {
+        pointer-events: none;
         display: block;
         background-repeat: no-repeat;
         background-size: 100% 100%;

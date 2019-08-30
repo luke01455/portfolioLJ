@@ -33,7 +33,7 @@ class ProjectsPage extends React.Component {
             imageUrl: '<iframe src="https://giphy.com/embed/iesTI3bXamSEAhRuRr" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
             id: 3,
             linkUrl: '',
-            description: 'Made following a Udemy tutorial, Forkify searches an API for recipes, displays the ingredients, lets you add a meal to your favourites, and puts the ingredients in a shopping cart',
+            description: 'Forkify searches an API for recipes, displays the ingredients, lets you add a meal to your favourites, and puts the ingredients in a shopping cart',
             gitHub: 'https://github.com/luke01455/forkify',
             deploy: 'https://luke01455.github.io/forkify/'
           },
@@ -42,9 +42,9 @@ class ProjectsPage extends React.Component {
             imageUrl: '<a href="https://github.com/luke01455/budgety"><iframe src="https://giphy.com/embed/dyA3vxeewhadJQxDsK" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a>',
             id: 4,
             linkUrl: '',
-            description: 'Made following a Udemy tutorial, budgety lets you plan out this months budget, by letting you add expenses and incomes, you can also remove anything youve added',
+            description: 'Budgety lets you plan out this months budget, by letting you add expenses and incomes, you can also remove anything youve added',
             gitHub: 'https://github.com/luke01455/budgety',
-            deploy: ''
+            deploy: 'https://github.com/luke01455/budgety'
           }
         ]
        }

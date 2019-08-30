@@ -1,23 +1,21 @@
 import React from 'react';
-
+import { withRouter } from 'react-router-dom';
 import githubl from '../../assets/images/githubl.png';
 import searchl from '../../assets/images/searchl.png';
 
 import './project-item.styles.scss';
 
-const ProjectItem = ({ title, description, imageUrl, gitHub, deploy }) => (
+const ProjectItem = ({ title, description, imageUrl, gitHub, deploy, history}) => (
     <div className='project-item'>
         <div className='project-wrapper'>
 
-            <div className='image-wrapper'>
+            <a className='image-wrapper' href={deploy} target="_blank" rel="noopener noreferrer">
+
                 <div className='background-image'
-                    // style={{
-                    //     backgroundImage: `url(${imageUrl})`
-                    // }}
-                    dangerouslySetInnerHTML={{__html:imageUrl}}
-                    > 
+                    dangerouslySetInnerHTML={{ __html: imageUrl }}>
                 </div>
-            </div>
+
+            </a>
             <div className='desc-text'>
                 <div className='title'> {title.toUpperCase()}</div>
                 <div className='description'>{description}</div>
@@ -35,7 +33,7 @@ const ProjectItem = ({ title, description, imageUrl, gitHub, deploy }) => (
                 </div>
             </div>
         </div>
-</div>
+    </div>
 )
 
-export default ProjectItem;
+export default withRouter(ProjectItem);
