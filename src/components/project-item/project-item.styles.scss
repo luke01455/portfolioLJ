@@ -19,19 +19,21 @@ $break-small: 450px;
     height: auto;
    }
 
-  &:hover {
-    cursor: pointer;
-  }
+
 
   .project-wrapper {
     width: 90%;
     display: flex;
     justify-content: space-around;
     align-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
 
     @media screen and (max-width: $break-medium) {
         flex-direction: column-reverse;
         width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
       }
 
     .image-wrapper {
@@ -40,6 +42,10 @@ $break-small: 450px;
        display: flex;
        justify-content: center;
        align-content: space-between;
+
+       &:hover {
+        cursor: pointer;
+      }
 
     @media screen and (max-width: $break-large) {
         width: 50%;
@@ -69,9 +75,70 @@ $break-small: 450px;
       flex-direction: column;
 
       @media screen and (max-width: $break-medium) {
+      padding-top: 50px;
        flex: 1;
-       padding-bottom: 50px;
+       padding-bottom: 15px;
+
       }
+      .title {
+
+        @media screen and (max-width: $break-medium) {
+         padding: 10px;
+          }
+      }
+      .description {
+
+
+        @media screen and (max-width: $break-medium) {
+
+           }
+      }
+
+      .git-deploy-wrapper {
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+
+        @media screen and (max-width: $break-medium) {
+          padding-top: 2px;
+           }
+
+        .deploy {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 75px;
+          width: 75px;
+  
+        .deploy-img {
+          height: 45%;
+          width: 45%;
+
+          &:hover {
+            cursor: pointer;
+          }
+        }
+        }
+
+      .github {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 75px;
+        width: 75px;
+
+      .github-img {
+        height: 60%;
+        width: 60%;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
+      }
+    }
     }
   }
 }
