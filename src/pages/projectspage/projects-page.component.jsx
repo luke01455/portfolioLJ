@@ -16,7 +16,7 @@ class ProjectsPage extends React.Component {
             linkUrl: '',
             description: 'Crwn Clothing is an e-commerce site, made in react, using firebase for google login',
             gitHub: 'https://github.com/luke01455/crwn-clothing',
-            deploy: 'https://luke01455.github.io/crwn-clothing/#/'
+            deploy: 'https://crwn-clothing-lj.herokuapp.com/'
           },
           {
             title: 'Repeat-Mobile',
