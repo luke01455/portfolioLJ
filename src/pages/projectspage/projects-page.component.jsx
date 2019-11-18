@@ -9,9 +9,18 @@ class ProjectsPage extends React.Component {
 
        this.state = {
         sections: [
+          {
+            title: 'Repeat-Mobile-3',
+            imageUrl: '<a href="https://ibb.co/XyMX57T"><iframe src="https://giphy.com/embed/dyA3vxeewhadJQxDsK" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a>',
+            id: 5,
+            linkUrl: '',
+            description: 'Made using react, redux, react-router, html, css, and linking to a java backend, this app lets users record on a loop for up to 20 minutes, and save if needed.',
+            gitHub: 'https://github.com/luke01455/repeat-mobile3',
+            deploy: 'https://crwn-datab.firebaseapp.com/'
+          },
         {
             title: 'Crwn-Clothing',
-            imageUrl: '<iframe src="https://giphy.com/embed/kafnIzCJ12DsEMu5W1" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
+            imageUrl: '<iframe src="https://ibb.co/0fkFMpq" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
             id: 1,
             linkUrl: '',
             description: 'Crwn Clothing is an e-commerce site, made in react, using firebase for google login',
@@ -20,7 +29,7 @@ class ProjectsPage extends React.Component {
           },
           {
             title: 'Repeat-Mobile',
-            imageUrl: '<iframe src="https://giphy.com/embed/gdfcoij5piIdVFV4mJ" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
+            imageUrl: '<iframe src="https://ibb.co/kByh6tL" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
             id: 2,
             linkUrl: '',
             description: 'This is going to be the mobile front-end version for our android repeat application which records sound on a loop',
@@ -30,7 +39,7 @@ class ProjectsPage extends React.Component {
           },
           {
             title: 'Forkify',
-            imageUrl: '<iframe src="https://giphy.com/embed/iesTI3bXamSEAhRuRr" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
+            imageUrl: '<iframe src="https://ibb.co/m04bGsf" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
             id: 3,
             linkUrl: '',
             description: 'Forkify searches an API for recipes, displays the ingredients, lets you add a meal to your favourites, and puts the ingredients in a shopping cart',
@@ -39,13 +48,13 @@ class ProjectsPage extends React.Component {
           },
           {
             title: 'Budgety',
-            imageUrl: '<a href="https://github.com/luke01455/budgety"><iframe src="https://giphy.com/embed/dyA3vxeewhadJQxDsK" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a>',
+            imageUrl: '<a href="https://ibb.co/hdHVG92"><iframe src="https://giphy.com/embed/dyA3vxeewhadJQxDsK" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a>',
             id: 4,
             linkUrl: '',
             description: 'Budgety lets you plan out this months budget, by letting you add expenses and incomes, you can also remove anything youve added',
             gitHub: 'https://github.com/luke01455/budgety',
             deploy: 'https://github.com/luke01455/budgety'
-          }
+          },
         ]
        }
    }
