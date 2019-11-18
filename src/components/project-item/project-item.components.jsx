@@ -11,8 +11,10 @@ const ProjectItem = ({ title, description, imageUrl, gitHub, deploy, history}) =
 
             <a className='image-wrapper' href={deploy} target="_blank" rel="noopener noreferrer">
 
-                <div className='background-image'
-                    dangerouslySetInnerHTML={{ __html: imageUrl }}>
+                <div className='background-image'>
+                <a href={imageUrl}> 
+                    <img className='project-image' src={imageUrl}></img>
+                </a>
                 </div>
 
             </a>

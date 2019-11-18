@@ -11,7 +11,7 @@ class ProjectsPage extends React.Component {
         sections: [
           {
             title: 'Repeat-Mobile-3',
-            imageUrl: '<a href="https://ibb.co/XyMX57T"><iframe src="https://giphy.com/embed/dyA3vxeewhadJQxDsK" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a>',
+            imageUrl: 'https://i.ibb.co/8ztMxrV/repeat3img.jpg',
             id: 5,
             linkUrl: '',
             description: 'Made using react, redux, react-router, html, css, and linking to a java backend, this app lets users record on a loop for up to 20 minutes, and save if needed.',
@@ -20,7 +20,7 @@ class ProjectsPage extends React.Component {
           },
         {
             title: 'Crwn-Clothing',
-            imageUrl: '<iframe src="https://ibb.co/0fkFMpq" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
+            imageUrl: 'https://i.ibb.co/K9YLqc6/crwnclothingimg.jpg',
             id: 1,
             linkUrl: '',
             description: 'Crwn Clothing is an e-commerce site, made in react, using firebase for google login',
@@ -29,7 +29,7 @@ class ProjectsPage extends React.Component {
           },
           {
             title: 'Repeat-Mobile',
-            imageUrl: '<iframe src="https://ibb.co/kByh6tL" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
+            imageUrl: 'https://i.ibb.co/B3PgK9h/repeat2img.jpg>',
             id: 2,
             linkUrl: '',
             description: 'This is going to be the mobile front-end version for our android repeat application which records sound on a loop',
@@ -39,7 +39,7 @@ class ProjectsPage extends React.Component {
           },
           {
             title: 'Forkify',
-            imageUrl: '<iframe src="https://ibb.co/m04bGsf" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe>',
+            imageUrl: 'https://i.ibb.co/Lr1Y8wV/forkifyimg.jpg',
             id: 3,
             linkUrl: '',
             description: 'Forkify searches an API for recipes, displays the ingredients, lets you add a meal to your favourites, and puts the ingredients in a shopping cart',
@@ -48,7 +48,7 @@ class ProjectsPage extends React.Component {
           },
           {
             title: 'Budgety',
-            imageUrl: '<a href="https://ibb.co/hdHVG92"><iframe src="https://giphy.com/embed/dyA3vxeewhadJQxDsK" height=100% frameBorder="0" class="giphy-embed" allowFullScreen></iframe></a>',
+            imageUrl: 'https://i.ibb.co/4SMpbt4/budgetyimg.jpg',
             id: 4,
             linkUrl: '',
             description: 'Budgety lets you plan out this months budget, by letting you add expenses and incomes, you can also remove anything youve added',

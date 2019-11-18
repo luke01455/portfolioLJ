@@ -43,6 +43,11 @@ $break-small: 450px;
        justify-content: center;
        align-content: space-between;
 
+       .project-image {
+         max-width: 500px;
+         max-height: 500px;
+       }
+
        &:hover {
         cursor: pointer;
       }
