@@ -1,4 +1,4 @@
-$break-large: 1350px;
+$break-large: 1600px;
 $break-medium: 900px;
 $break-small: 450px;
 
@@ -29,7 +29,8 @@ $break-small: 450px;
     padding-left: 100px;
     padding-right: 100px;
 
-    @media (max-width: $break-medium) {
+    @media (max-width: $break-large) {
+      padding-top: 200px;
         flex-direction: column-reverse;
         width: 100%;
         padding-left: 0px;

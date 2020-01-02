@@ -13,7 +13,7 @@ const ProjectItem = ({ title, description, imageUrl, gitHub, deploy, history}) =
 
                 <div className='background-image'>
                 <a href={imageUrl}> 
-                    <img className='project-image' src={imageUrl}></img>
+                    <img className='project-image' src={imageUrl} alt="img"></img>
                 </a>
                 </div>
 

@@ -10,6 +10,15 @@ class ProjectsPage extends React.Component {
        this.state = {
         sections: [
           {
+            title: 'Social Media App',
+            imageUrl: 'https://i.imgur.com/73ZxrXB.jpg',
+            id: 6,
+            linkUrl: '',
+            description: 'Using the MongoDb, Express, React, Node and Graphql stack. This is a CRUD webapp which utilitises fetching data from a MongoDB and Apollo backend, and publishing queries and mutations of the posts, comments and users on the frontend. UI/UX made with semantic UI',
+            gitHub: 'https://github.com/luke01455/SocialMediaFrontend',
+            deploy: 'https://keen-colden-0a4367.netlify.com/'
+          },
+          {
             title: 'Repeat-Mobile-3',
             imageUrl: 'https://i.ibb.co/8ztMxrV/repeat3img.jpg',
             id: 5,
